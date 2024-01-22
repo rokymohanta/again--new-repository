@@ -68,6 +68,7 @@ a {
     background-position: bottom right;
 
 
+
 }
 
 /* bannner */
@@ -106,6 +107,10 @@ a {
 }
 
 /* main section styles  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 
 /* about section styles */
@@ -135,5 +140,38 @@ a {
     font-weight: 400;
     line-height: 30px;
     /* 166.667% */
+
+}
+
+.about-information-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#what-i-do-discription {
+    padding: 30px 150px;
+}
+
+/* react node js picture */
+.skill {
+    padding: 30x;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-container {
+    display: flex;
+    gap: 10px;
+
+
+}
+
+/* resume-section */
+.resume-colum-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 
 }
